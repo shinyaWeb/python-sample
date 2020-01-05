@@ -19,5 +19,7 @@ Pythonのコードをいくつか配置しています。
    あなたの体重を入力してください: 45
    あなたのBMI値は  17.578124999999996   です。
    ```
-### 3.turtle_circle.py カメさんがアニメーションで円形の綺麗な図形を描く。
+### 3.turtl-circle.py カメさんがアニメーションで円形の綺麗な図形を描く。
    <img src="turtle_circle.jpg" />
+### 4.turtle-hexagram.py カメさんがアニメーション(若干ぎこちない)で綺麗な六芒星を描く。
+   <img src="turtle_hexagram.jpg" />

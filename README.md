@@ -11,7 +11,7 @@ Pythonのコードをいくつか配置しています。
    1023456789
    ```
    が返ってきます。
-### BMIchecker.py BMIを計算する。  
+### 2.BMIchecker.py BMIを計算する。  
    身長と体重を入力するとBMIを自動で計算します。  
    ```
    $ python3 BMIchecker.py 

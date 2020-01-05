@@ -22,5 +22,5 @@ Pythonのコードをいくつか配置しています。
 ### 3.turtl-circle.py カメさんがアニメーションで円形の綺麗な図形を描く。
    <img src="turtle_circle.jpg" /> 
    
-### 4.turtle-hexagram.py カメさんがアニメーション(若干ぎこちない)で綺麗な六芒星を描く。
+### 4.turtle-hexagram.py カメさんがアニメーションで綺麗な六芒星を描く。
    <img src="turtle-hexagram.jpg" />

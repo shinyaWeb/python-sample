@@ -1,28 +1,23 @@
 from turtle import *
 shape("turtle")
-col1 = ["yellow","blue"]
-col2 = ["orange","plum"]
-col3 = "limegreen"
-col4 = "tomato"
+col = ["yellow", "blue", "orange", "plum", "limegreen", "tomato"]
+
 for i in range(100):
-    for j in range(2):
-        color(col1[j])
-        forward(200)
+    if i % 2 == 0:
+        right(120)
+        for j in range(3):
+            color(col[j % 3])
+            forward(100)
+            right(120)
+            color(col[(j + 1) % 3])
+            forward(200)
+    else:
         left(120)
-    color(col3)
-    forward(400/3)
-    left(60)
-    color(col4)
-    forward(400/3)
-    left(120)
-    for k in range(2):
-        color(col2[k])
-        forward(200)
-        left(120)
-    color(col4)
-    forward(200/3)
-    right(60)
-    color(col3)
-    forward(200/3)
-    left(120)
+        for k in range(3):
+            color(col[(k % 3) + 3])
+            forward(100)
+            left(120)
+            color(col[((k + 1) % 3) + 3])
+            forward(200)
+
 done()
